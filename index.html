@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html manifest="site.appcache">
+<html>
 <head>
 <title>HTML5 Jump Game</title>
 
@@ -462,17 +462,6 @@
 
     //calls init function whenever the page gets fully loaded
     window.addEventListener("load",starter,true);
-
-window
-.applicationCache.addEventListener(
- 'updateready',
- function(e) {
-   var reload = window.confirm(...);
-   if (reload)
-      window.location.reload();
- },
- false
-);
 
 </script>
 </head>
